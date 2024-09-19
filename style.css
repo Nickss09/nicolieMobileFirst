@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(96, 175, 175);
+    background-color: rgb(133, 75, 68);
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -30,43 +30,63 @@ body{
    display: block;
 }
 .Box1{
-    background: url(https://i.pinimg.com/564x/b2/40/f7/b240f7c5698a11809c1d72539935fb9d.jpg);
-    border-radius: 30px;
-    background-position: 50%;
-    background-repeat: no-repeat;
+    background-color: white;
     border-radius: 30px;
     width: 300px;
     height: 300px;
     margin-bottom: 40px;
 }
 .Box2{
-    background: url(https://i.pinimg.com/564x/4e/2d/3b/4e2d3b4b3496e056421b96b8ca834e51.jpg);
-    border-radius: 30px;
-    background-position: 50%;
-    background-repeat: no-repeat;
+    background-color: white;
     border-radius: 30px;
     width: 300px;
     height: 300px;
     margin-bottom: 40px;
 }
 .Box3{
-    background: url(https://i.pinimg.com/564x/2c/11/2b/2c112b27b87cef3f8fed9007c260450e.jpg);
+    background-color: white;
     border-radius: 30px;
-    background-position: 50%;
-    background-repeat: no-repeat;
     width: 300px;
     height: 300px;
+    margin-bottom: 40px;
+}
+.foto1{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+}
+.foto2{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+}
+.foto3{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+}
+.boxbox{
+    background-color: rgb(59, 19, 19);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 .text2{
-    justify-content: center;
     text-align: center;
-    color: rgb(71, 42, 42);
+    color: antiquewhite;
 }
-@media(max-width: 375px){body{background-color: rgb(75, 37, 37);}}
+@media(max-width: 375px){body{background-color: rgb(126, 79, 79);}}
 @media(min-width: 760px){body{background-color: rgb(112, 71, 71);}
 .main-section{display: flex; align-items: center;}
 .text1{margin-left: 30px;}
 .tent{display: flex;}
 .Box1{margin-right: 80px;}
-.Box2{margin-right: 80px;}
-.text2{margin-top: 250px;}}
+.Box2{margin-right: 80px;}}
